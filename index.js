@@ -1,8 +1,7 @@
-const challengeFunction = function(param){
-    /* YOUR CODE HERE */
-    let result
+const reverseString = function(str){
 
-    return result
+    /* YOUR CODE HERE */
+
 }
 
-module.exports = challengeFunction
+module.exports = reverseString

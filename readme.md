@@ -1,6 +1,10 @@
-# Code Challenge: Name
+# Code Challenge: Reverse String
 
-descripcion
+Invierta la cadena proporcionada.
+
+Es posible que deba convertir la cadena en una matriz antes de poder invertirla.
+
+Tu resultado debe ser una cadena.
 
 ## Instrucciones
 - Crear un nuevo repositorio utilizando este repositorio como template (Boton: use this template).
@@ -21,30 +25,30 @@ npm run test
 ## Entrada
 
 ##### Parámetro 1
-- **nombre**: num
-- **tipo**: Number (Integer)
-- **limitaciones**: 0 < **num** <= 10
+- **nombre**: str
+- **tipo**: String
+- **limitaciones**: 0 < **str.length ** <= 100
 
 ## Salida
 
-- **tipo**: Number (Integer)
+- **tipo**: String
 
 ## Ejemplo
-**1** debe retornar **1** porque: 1 == 1
+**hola** debe retornar **aloh** 
 
 ## Tests
 
 ### Test 1  
 
-- **Parametros**: param = 1  
-- **Resultado esperado**: xxx
+- **Parametros**: str = "hola"  
+- **Resultado esperado**: "aloh"
 ---
 ### Test 2  
 
-- **Parametros**:  param = 2  
-- **Resultado esperado**: xxx
+- **Parametros**: str = "roma"  
+- **Resultado esperado**: "amor"
 ---
 ### Test 3  
 
-- **Parametros**: param = 3  
-- **Resultado esperado**: xxx
+- **Parametros**: str = "saludos desde la tierra"  
+- **Resultado esperado**: "arreit al edsed sodulas"
